@@ -1,4 +1,4 @@
-from sympy import randprime, isprime
+from sympy import randprime
 
 def get_min_max_bit_size(bit):
     return (int(('1' + '0' * (bit - 1)), 2), int(('1' * bit), 2))
