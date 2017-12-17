@@ -35,4 +35,4 @@ to owing to the fact that prime numbers are pretty hard to factorize especially
 big ones.
 
 ### Why this project exists?
-I just wanted to understand the Diffie Hellman Key Exchange Algorithm, what better way to do it than writing it, I do acknowledge the network I implemented is nothing close to a real one.
+We just wanted to understand the Diffie Hellman Key Exchange Algorithm, what better way to do it than writing it, we acknowledge the network we implemented is nothing close to a real one. Thanks to Jorik Schllekens for the help.
