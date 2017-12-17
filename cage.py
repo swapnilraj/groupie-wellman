@@ -1,11 +1,8 @@
-import numpy
 import prime_gen
 import socket
 
 from util import *
 
-_ACK = b'1100'
-_HEADER_SIZE = 10
 _g_SIZE = 4096
 
 HOST = ''                 # Symbolic name meaning all available interfaces
