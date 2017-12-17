@@ -23,10 +23,10 @@ def listen(host, port):
             a = prime_gen.get_prime_private()
 
             # send p and g
-            conn.sendall(p)
+            conn.sendall(p.to_bytes(_g_SIZE, byteorder = 'big'))
             get_ACK(conn)
             
-            conn.sendall(g)
+            conn.sendall(g.to_bytes(_g_SIZE, byteorder = 'big'))
             get_ACK(conn)
 
             # Send pA
