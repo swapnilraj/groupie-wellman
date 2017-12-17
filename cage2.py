@@ -1,5 +1,6 @@
 import prime_gen
 import socket
+import sys
 
 from util import *
 
@@ -37,3 +38,6 @@ def __main__():
         connect('127.0.0.1', 50007)
     else:
         connect(sys.argv[1], sys.argv[2])
+
+if __name__ == "__main__":
+    __main__()

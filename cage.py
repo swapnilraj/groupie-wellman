@@ -1,5 +1,6 @@
 import prime_gen
 import socket
+import sys
 
 from util import *
 
@@ -45,3 +46,6 @@ def __main__():
         listen(HOST, PORT)
     else:
         listen(sys.argv[1], sys.argv[2])
+
+if __name__ == "__main__":
+    __main__()
