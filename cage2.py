@@ -32,3 +32,8 @@ def connect(host, port):
 
         return compute_power(pa, b, g)
 
+def __main__():
+    if len(sys.argv) < 3:
+        connect('127.0.0.1', 50007)
+    else:
+        connect(sys.argv[1], sys.argv[2])
