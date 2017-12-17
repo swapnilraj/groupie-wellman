@@ -20,7 +20,6 @@ def connect(host, port):
         send_ACK(s)
 
         g = int.from_bytes(s.recv(_g_SIZE), byteorder='big', signed=False)
-        print(p)
         send_ACK(s)
 
         # get pA
