@@ -4,8 +4,11 @@ This is an implementation of the Diffie Hellman Key Exchange Algorithm.
 # How to Run?
 ``` 
 pip install -r requirements.txt
-
+python3 cage.py
+python3 cage2.py
 ```
+
+`cage.py` acts as server, `cage2.py` acts as a client.
 
 # Diffie Hellman Algorithm
 DHA is an algorithm for exchanging public keys over a public domain, the 
