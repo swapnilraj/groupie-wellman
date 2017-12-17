@@ -1,6 +1,6 @@
 _ACK = b'ack'
 
-send_ACK(conn):
+def send_ACK(conn):
     conn.sendall(_ACK)
 
 def get_ACK(conn):
