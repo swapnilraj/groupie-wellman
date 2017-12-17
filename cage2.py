@@ -34,10 +34,12 @@ def connect(host, port):
         return compute_power(pa, b, g)
 
 def __main__():
+    key = 0
     if len(sys.argv) < 3:
-        connect('127.0.0.1', 50007)
+        key = connect('127.0.0.1', 50007)
     else:
-        connect(sys.argv[1], sys.argv[2])
+        key = connect(sys.argv[1], sys.argv[2])
+    print('Key generates:- {}'.format(key))
 
 if __name__ == "__main__":
     __main__()

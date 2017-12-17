@@ -42,10 +42,12 @@ def listen(host, port):
             
 def __main__():
     ## if no args start the default
+    key = 0         #Final key
     if len(sys.argv) < 3:
-        listen(HOST, PORT)
+        key = listen(HOST, PORT)
     else:
-        listen(sys.argv[1], sys.argv[2])
+        key = listen(sys.argv[1], sys.argv[2])
+    print('Key generated:- {}'.format(key))
 
 if __name__ == "__main__":
     __main__()
