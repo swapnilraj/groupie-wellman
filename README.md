@@ -1,4 +1,4 @@
-# Ruffie Heavenman
+# Groupie-Wellman
 This is an implementation of the Diffie Hellman Key Exchange Algorithm.
 
 # How to Run?
